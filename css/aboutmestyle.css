@@ -38,6 +38,21 @@ h1{
     border-width: 5px;
     border-color: rgb(255, 255, 255);
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coolstuff {
+    background-color:  rgb(25, 21, 31);
+    text-align:justify;
+    margin-top: 5px;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
 }
 
 .aboutme {
@@ -53,6 +68,11 @@ h1{
 }
 
 .aboutme img {
-    width: 150px;
+    width: 200px;
     height: 200px;
+}
+
+.inventory img {
+    width: 150px;
+    height: 150px;
 }
