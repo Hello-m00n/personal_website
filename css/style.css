@@ -1,0 +1,35 @@
+@font-face {
+    font-family: monospace;
+    src: url(neocities\JetBrainsMono-Bold.ttf);
+}
+
+body {
+    background-color: rgb(25, 21, 31);
+    color: white;
+    font-family:monospace
+}
+
+h1{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.contents {
+    place-content: center;
+    position: relative;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    display: grid;
+    padding: 10px;
+
+}
+.space img {
+    height: 100px;
+    width: 100px;
+}
+.space p {
+    text-align: center;
+}
+.space {
+    max-width: 100px;
+}

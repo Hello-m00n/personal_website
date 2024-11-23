@@ -1,0 +1,32 @@
+@font-face {
+    font-family: monospace;
+    src: url(neocities\JetBrainsMono-Bold.ttf);
+}
+
+body {
+    background-color: rgb(25, 21, 31);
+    color: white;
+    font-family:monospace
+}
+
+h1{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.infobox {
+    text-align: center;
+    background-color:  rgb(25, 21, 31);
+    margin-top: 5px;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    img {
+        max-width: 45%;
+    }
+}
